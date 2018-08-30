@@ -1,13 +1,19 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
+  <div>
+    <!-- <img src="./assets/logo.png"> -->
+    <!-- <router-view/> -->
+    {{value}}
   </div>
 </template>
 
 <script>
 export default {
-  name: 'App'
+  name: 'App',
+  data(){
+    return{
+      value:"nihao"
+    }
+  }
 }
 </script>
 
